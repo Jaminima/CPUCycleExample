@@ -6,6 +6,9 @@
         Threading.Thread.Sleep(Delay)
     End Sub
 
+    Sub ResetPC()
+    End Sub
+
     Class Binary
 
         Public Function BinToDec(Bin As String)

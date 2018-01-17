@@ -34,8 +34,8 @@ Partial Class Form1
         Me.Label_CIR = New System.Windows.Forms.Label()
         Me.Label_CU = New System.Windows.Forms.Label()
         Me.Panel_MDR = New System.Windows.Forms.Panel()
-        Me.Label_MDR_Binary = New System.Windows.Forms.Label()
-        Me.Label_MDR = New System.Windows.Forms.Label()
+        Me.Label_MBR_Binary = New System.Windows.Forms.Label()
+        Me.Label_MBR = New System.Windows.Forms.Label()
         Me.Panel_MAR = New System.Windows.Forms.Panel()
         Me.Label_MAR_Binary = New System.Windows.Forms.Label()
         Me.Label_MAR = New System.Windows.Forms.Label()
@@ -74,6 +74,7 @@ Partial Class Form1
         Me.Panel_Bus_Data = New System.Windows.Forms.Panel()
         Me.Panel_Bus_Control = New System.Windows.Forms.Panel()
         Me.BtnCycle = New System.Windows.Forms.Button()
+        Me.BtnRestart = New System.Windows.Forms.Button()
         Me.Panel_CPU.SuspendLayout()
         Me.Panel_ACC.SuspendLayout()
         Me.Panel_Decoder.SuspendLayout()
@@ -118,14 +119,14 @@ Partial Class Form1
         Me.Label_ACC_Binary.Name = "Label_ACC_Binary"
         Me.Label_ACC_Binary.Size = New System.Drawing.Size(75, 23)
         Me.Label_ACC_Binary.TabIndex = 1
-        Me.Label_ACC_Binary.Text = "0000"
+        Me.Label_ACC_Binary.Text = "00000000"
         Me.Label_ACC_Binary.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label_ACC
         '
-        Me.Label_ACC.Location = New System.Drawing.Point(1, 1)
+        Me.Label_ACC.Location = New System.Drawing.Point(0, 0)
         Me.Label_ACC.Name = "Label_ACC"
-        Me.Label_ACC.Size = New System.Drawing.Size(71, 18)
+        Me.Label_ACC.Size = New System.Drawing.Size(75, 19)
         Me.Label_ACC.TabIndex = 0
         Me.Label_ACC.Text = "ACC"
         Me.Label_ACC.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -176,14 +177,14 @@ Partial Class Form1
         Me.Label_CIR_Binary.Name = "Label_CIR_Binary"
         Me.Label_CIR_Binary.Size = New System.Drawing.Size(75, 23)
         Me.Label_CIR_Binary.TabIndex = 1
-        Me.Label_CIR_Binary.Text = "0000"
+        Me.Label_CIR_Binary.Text = "00000000"
         Me.Label_CIR_Binary.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label_CIR
         '
-        Me.Label_CIR.Location = New System.Drawing.Point(1, 0)
+        Me.Label_CIR.Location = New System.Drawing.Point(0, 0)
         Me.Label_CIR.Name = "Label_CIR"
-        Me.Label_CIR.Size = New System.Drawing.Size(71, 19)
+        Me.Label_CIR.Size = New System.Drawing.Size(75, 19)
         Me.Label_CIR.TabIndex = 0
         Me.Label_CIR.Text = "CIR"
         Me.Label_CIR.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -201,31 +202,31 @@ Partial Class Form1
         'Panel_MDR
         '
         Me.Panel_MDR.BackColor = System.Drawing.Color.OrangeRed
-        Me.Panel_MDR.Controls.Add(Me.Label_MDR_Binary)
-        Me.Panel_MDR.Controls.Add(Me.Label_MDR)
+        Me.Panel_MDR.Controls.Add(Me.Label_MBR_Binary)
+        Me.Panel_MDR.Controls.Add(Me.Label_MBR)
         Me.Panel_MDR.Location = New System.Drawing.Point(122, 174)
         Me.Panel_MDR.Name = "Panel_MDR"
         Me.Panel_MDR.Size = New System.Drawing.Size(75, 50)
         Me.Panel_MDR.TabIndex = 3
         '
-        'Label_MDR_Binary
+        'Label_MBR_Binary
         '
-        Me.Label_MDR_Binary.BackColor = System.Drawing.Color.Firebrick
-        Me.Label_MDR_Binary.Location = New System.Drawing.Point(0, 27)
-        Me.Label_MDR_Binary.Name = "Label_MDR_Binary"
-        Me.Label_MDR_Binary.Size = New System.Drawing.Size(75, 23)
-        Me.Label_MDR_Binary.TabIndex = 1
-        Me.Label_MDR_Binary.Text = "0000"
-        Me.Label_MDR_Binary.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Label_MBR_Binary.BackColor = System.Drawing.Color.Firebrick
+        Me.Label_MBR_Binary.Location = New System.Drawing.Point(0, 27)
+        Me.Label_MBR_Binary.Name = "Label_MBR_Binary"
+        Me.Label_MBR_Binary.Size = New System.Drawing.Size(75, 23)
+        Me.Label_MBR_Binary.TabIndex = 1
+        Me.Label_MBR_Binary.Text = "00000000"
+        Me.Label_MBR_Binary.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'Label_MDR
+        'Label_MBR
         '
-        Me.Label_MDR.Location = New System.Drawing.Point(1, 1)
-        Me.Label_MDR.Name = "Label_MDR"
-        Me.Label_MDR.Size = New System.Drawing.Size(71, 18)
-        Me.Label_MDR.TabIndex = 0
-        Me.Label_MDR.Text = "MDR"
-        Me.Label_MDR.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Label_MBR.Location = New System.Drawing.Point(0, 0)
+        Me.Label_MBR.Name = "Label_MBR"
+        Me.Label_MBR.Size = New System.Drawing.Size(75, 19)
+        Me.Label_MBR.TabIndex = 0
+        Me.Label_MBR.Text = "MBR"
+        Me.Label_MBR.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Panel_MAR
         '
@@ -249,9 +250,10 @@ Partial Class Form1
         '
         'Label_MAR
         '
-        Me.Label_MAR.Location = New System.Drawing.Point(1, 1)
+        Me.Label_MAR.BackColor = System.Drawing.Color.OrangeRed
+        Me.Label_MAR.Location = New System.Drawing.Point(0, 0)
         Me.Label_MAR.Name = "Label_MAR"
-        Me.Label_MAR.Size = New System.Drawing.Size(71, 18)
+        Me.Label_MAR.Size = New System.Drawing.Size(75, 19)
         Me.Label_MAR.TabIndex = 0
         Me.Label_MAR.Text = "MAR"
         Me.Label_MAR.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -604,11 +606,22 @@ Partial Class Form1
         Me.BtnCycle.Text = "Do Cycle"
         Me.BtnCycle.UseVisualStyleBackColor = False
         '
+        'BtnRestart
+        '
+        Me.BtnRestart.BackColor = System.Drawing.Color.Transparent
+        Me.BtnRestart.Location = New System.Drawing.Point(216, 138)
+        Me.BtnRestart.Name = "BtnRestart"
+        Me.BtnRestart.Size = New System.Drawing.Size(62, 24)
+        Me.BtnRestart.TabIndex = 6
+        Me.BtnRestart.Text = "Restart"
+        Me.BtnRestart.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(496, 283)
+        Me.Controls.Add(Me.BtnRestart)
         Me.Controls.Add(Me.BtnCycle)
         Me.Controls.Add(Me.Panel_Bus_Control)
         Me.Controls.Add(Me.Panel_Bus_Data)
@@ -650,8 +663,8 @@ Partial Class Form1
     Friend WithEvents Label_CIR As Label
     Friend WithEvents Label_CU As Label
     Friend WithEvents Panel_MDR As Panel
-    Friend WithEvents Label_MDR_Binary As Label
-    Friend WithEvents Label_MDR As Label
+    Friend WithEvents Label_MBR_Binary As Label
+    Friend WithEvents Label_MBR As Label
     Friend WithEvents Panel_Bus_Address As Panel
     Friend WithEvents Panel_Bus_Data As Panel
     Friend WithEvents Panel_Bus_Control As Panel
@@ -682,10 +695,6 @@ Partial Class Form1
     Friend WithEvents TxtBox_Ram_1010 As TextBox
     Friend WithEvents TxtBox_Ram_1011 As TextBox
     Friend WithEvents TxtBox_Ram_0000 As TextBox
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Friend WithEvents BtnCycle As Button
+    Friend WithEvents BtnRestart As Button
 End Class
