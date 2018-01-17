@@ -41,16 +41,14 @@ Partial Class Form1
         Me.Label_MAR = New System.Windows.Forms.Label()
         Me.Panel_PC = New System.Windows.Forms.Panel()
         Me.Label_PC_Binary = New System.Windows.Forms.Label()
-        Me.Lbl_PC = New System.Windows.Forms.Label()
+        Me.Label_PC = New System.Windows.Forms.Label()
         Me.Panel_Ram = New System.Windows.Forms.Panel()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Table_Ram = New System.Windows.Forms.TableLayoutPanel()
+        Me.TxtBox_Ram_1011 = New System.Windows.Forms.TextBox()
         Me.Label_Ram_Address = New System.Windows.Forms.Label()
         Me.Label_Ram_0000 = New System.Windows.Forms.Label()
         Me.Label_Ram_0010 = New System.Windows.Forms.Label()
         Me.Label_Ram_Content = New System.Windows.Forms.Label()
-        Me.Panel_Bus_Address = New System.Windows.Forms.Panel()
-        Me.Panel_Bus_Data = New System.Windows.Forms.Panel()
-        Me.Panel_Bus_Control = New System.Windows.Forms.Panel()
         Me.Label_Ram_0001 = New System.Windows.Forms.Label()
         Me.Label_Ram_0011 = New System.Windows.Forms.Label()
         Me.Label_Ram_0100 = New System.Windows.Forms.Label()
@@ -61,7 +59,6 @@ Partial Class Form1
         Me.Label_Ram_1001 = New System.Windows.Forms.Label()
         Me.Label_Ram_1010 = New System.Windows.Forms.Label()
         Me.Label_Ram_1011 = New System.Windows.Forms.Label()
-        Me.TxtBox_Ram_0000 = New System.Windows.Forms.TextBox()
         Me.TxtBox_Ram_0001 = New System.Windows.Forms.TextBox()
         Me.TxtBox_Ram_0010 = New System.Windows.Forms.TextBox()
         Me.TxtBox_Ram_0011 = New System.Windows.Forms.TextBox()
@@ -72,7 +69,11 @@ Partial Class Form1
         Me.TxtBox_Ram_1000 = New System.Windows.Forms.TextBox()
         Me.TxtBox_Ram_1001 = New System.Windows.Forms.TextBox()
         Me.TxtBox_Ram_1010 = New System.Windows.Forms.TextBox()
-        Me.TxtBox_Ram_1011 = New System.Windows.Forms.TextBox()
+        Me.TxtBox_Ram_0000 = New System.Windows.Forms.TextBox()
+        Me.Panel_Bus_Address = New System.Windows.Forms.Panel()
+        Me.Panel_Bus_Data = New System.Windows.Forms.Panel()
+        Me.Panel_Bus_Control = New System.Windows.Forms.Panel()
+        Me.BtnCycle = New System.Windows.Forms.Button()
         Me.Panel_CPU.SuspendLayout()
         Me.Panel_ACC.SuspendLayout()
         Me.Panel_Decoder.SuspendLayout()
@@ -81,7 +82,7 @@ Partial Class Form1
         Me.Panel_MAR.SuspendLayout()
         Me.Panel_PC.SuspendLayout()
         Me.Panel_Ram.SuspendLayout()
-        Me.TableLayoutPanel1.SuspendLayout()
+        Me.Table_Ram.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel_CPU
@@ -180,9 +181,9 @@ Partial Class Form1
         '
         'Label_CIR
         '
-        Me.Label_CIR.Location = New System.Drawing.Point(1, 1)
+        Me.Label_CIR.Location = New System.Drawing.Point(1, 0)
         Me.Label_CIR.Name = "Label_CIR"
-        Me.Label_CIR.Size = New System.Drawing.Size(71, 18)
+        Me.Label_CIR.Size = New System.Drawing.Size(71, 19)
         Me.Label_CIR.TabIndex = 0
         Me.Label_CIR.Text = "CIR"
         Me.Label_CIR.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -259,7 +260,7 @@ Partial Class Form1
         '
         Me.Panel_PC.BackColor = System.Drawing.Color.OrangeRed
         Me.Panel_PC.Controls.Add(Me.Label_PC_Binary)
-        Me.Panel_PC.Controls.Add(Me.Lbl_PC)
+        Me.Panel_PC.Controls.Add(Me.Label_PC)
         Me.Panel_PC.Location = New System.Drawing.Point(3, 3)
         Me.Panel_PC.Name = "Panel_PC"
         Me.Panel_PC.Size = New System.Drawing.Size(75, 50)
@@ -275,77 +276,85 @@ Partial Class Form1
         Me.Label_PC_Binary.Text = "0000"
         Me.Label_PC_Binary.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'Lbl_PC
+        'Label_PC
         '
-        Me.Lbl_PC.Location = New System.Drawing.Point(1, 1)
-        Me.Lbl_PC.Name = "Lbl_PC"
-        Me.Lbl_PC.Size = New System.Drawing.Size(71, 18)
-        Me.Lbl_PC.TabIndex = 0
-        Me.Lbl_PC.Text = "PC"
-        Me.Lbl_PC.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Label_PC.Location = New System.Drawing.Point(0, 0)
+        Me.Label_PC.Name = "Label_PC"
+        Me.Label_PC.Size = New System.Drawing.Size(75, 19)
+        Me.Label_PC.TabIndex = 0
+        Me.Label_PC.Text = "PC"
+        Me.Label_PC.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Panel_Ram
         '
         Me.Panel_Ram.BackColor = System.Drawing.Color.Orange
-        Me.Panel_Ram.Controls.Add(Me.TableLayoutPanel1)
+        Me.Panel_Ram.Controls.Add(Me.Table_Ram)
         Me.Panel_Ram.Location = New System.Drawing.Point(284, 13)
         Me.Panel_Ram.Name = "Panel_Ram"
         Me.Panel_Ram.Size = New System.Drawing.Size(200, 255)
         Me.Panel_Ram.TabIndex = 1
         '
-        'TableLayoutPanel1
+        'Table_Ram
         '
-        Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_1011, 1, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_Address, 0, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0000, 0, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0010, 0, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_Content, 1, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0001, 0, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0011, 0, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0100, 0, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0101, 0, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0110, 0, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_0111, 0, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_1000, 0, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_1001, 0, 14)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_1010, 0, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label_Ram_1011, 0, 16)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0001, 1, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0010, 1, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0011, 1, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0100, 1, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0101, 1, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0110, 1, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0111, 1, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_1000, 1, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_1001, 1, 14)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_1010, 1, 15)
-        Me.TableLayoutPanel1.Controls.Add(Me.TxtBox_Ram_0000, 1, 5)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 17
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(200, 255)
-        Me.TableLayoutPanel1.TabIndex = 0
+        Me.Table_Ram.ColumnCount = 2
+        Me.Table_Ram.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.0!))
+        Me.Table_Ram.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.0!))
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_1011, 1, 16)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_Address, 0, 4)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0000, 0, 5)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0010, 0, 7)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_Content, 1, 4)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0001, 0, 6)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0011, 0, 8)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0100, 0, 9)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0101, 0, 10)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0110, 0, 11)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_0111, 0, 12)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_1000, 0, 13)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_1001, 0, 14)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_1010, 0, 15)
+        Me.Table_Ram.Controls.Add(Me.Label_Ram_1011, 0, 16)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0001, 1, 6)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0010, 1, 7)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0011, 1, 8)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0100, 1, 9)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0101, 1, 10)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0110, 1, 11)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0111, 1, 12)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_1000, 1, 13)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_1001, 1, 14)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_1010, 1, 15)
+        Me.Table_Ram.Controls.Add(Me.TxtBox_Ram_0000, 1, 5)
+        Me.Table_Ram.Location = New System.Drawing.Point(0, 0)
+        Me.Table_Ram.Name = "Table_Ram"
+        Me.Table_Ram.RowCount = 17
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Table_Ram.Size = New System.Drawing.Size(200, 255)
+        Me.Table_Ram.TabIndex = 0
+        '
+        'TxtBox_Ram_1011
+        '
+        Me.TxtBox_Ram_1011.Location = New System.Drawing.Point(85, 239)
+        Me.TxtBox_Ram_1011.MaxLength = 8
+        Me.TxtBox_Ram_1011.Name = "TxtBox_Ram_1011"
+        Me.TxtBox_Ram_1011.Size = New System.Drawing.Size(100, 20)
+        Me.TxtBox_Ram_1011.TabIndex = 26
         '
         'Label_Ram_Address
         '
@@ -382,30 +391,6 @@ Partial Class Form1
         Me.Label_Ram_Content.Size = New System.Drawing.Size(100, 13)
         Me.Label_Ram_Content.TabIndex = 1
         Me.Label_Ram_Content.Text = "Content"
-        '
-        'Panel_Bus_Address
-        '
-        Me.Panel_Bus_Address.BackColor = System.Drawing.Color.Gray
-        Me.Panel_Bus_Address.Location = New System.Drawing.Point(216, 43)
-        Me.Panel_Bus_Address.Name = "Panel_Bus_Address"
-        Me.Panel_Bus_Address.Size = New System.Drawing.Size(62, 10)
-        Me.Panel_Bus_Address.TabIndex = 2
-        '
-        'Panel_Bus_Data
-        '
-        Me.Panel_Bus_Data.BackColor = System.Drawing.Color.Gray
-        Me.Panel_Bus_Data.Location = New System.Drawing.Point(216, 205)
-        Me.Panel_Bus_Data.Name = "Panel_Bus_Data"
-        Me.Panel_Bus_Data.Size = New System.Drawing.Size(62, 10)
-        Me.Panel_Bus_Data.TabIndex = 3
-        '
-        'Panel_Bus_Control
-        '
-        Me.Panel_Bus_Control.BackColor = System.Drawing.Color.Gray
-        Me.Panel_Bus_Control.Location = New System.Drawing.Point(216, 245)
-        Me.Panel_Bus_Control.Name = "Panel_Bus_Control"
-        Me.Panel_Bus_Control.Size = New System.Drawing.Size(62, 10)
-        Me.Panel_Bus_Control.TabIndex = 4
         '
         'Label_Ram_0001
         '
@@ -497,14 +482,6 @@ Partial Class Form1
         Me.Label_Ram_1011.TabIndex = 14
         Me.Label_Ram_1011.Text = "1011"
         '
-        'TxtBox_Ram_0000
-        '
-        Me.TxtBox_Ram_0000.Location = New System.Drawing.Point(85, 19)
-        Me.TxtBox_Ram_0000.MaxLength = 8
-        Me.TxtBox_Ram_0000.Name = "TxtBox_Ram_0000"
-        Me.TxtBox_Ram_0000.Size = New System.Drawing.Size(100, 20)
-        Me.TxtBox_Ram_0000.TabIndex = 15
-        '
         'TxtBox_Ram_0001
         '
         Me.TxtBox_Ram_0001.Location = New System.Drawing.Point(85, 39)
@@ -585,19 +562,54 @@ Partial Class Form1
         Me.TxtBox_Ram_1010.Size = New System.Drawing.Size(100, 20)
         Me.TxtBox_Ram_1010.TabIndex = 25
         '
-        'TxtBox_Ram_1011
+        'TxtBox_Ram_0000
         '
-        Me.TxtBox_Ram_1011.Location = New System.Drawing.Point(85, 239)
-        Me.TxtBox_Ram_1011.MaxLength = 8
-        Me.TxtBox_Ram_1011.Name = "TxtBox_Ram_1011"
-        Me.TxtBox_Ram_1011.Size = New System.Drawing.Size(100, 20)
-        Me.TxtBox_Ram_1011.TabIndex = 26
+        Me.TxtBox_Ram_0000.Location = New System.Drawing.Point(85, 19)
+        Me.TxtBox_Ram_0000.MaxLength = 8
+        Me.TxtBox_Ram_0000.Name = "TxtBox_Ram_0000"
+        Me.TxtBox_Ram_0000.Size = New System.Drawing.Size(100, 20)
+        Me.TxtBox_Ram_0000.TabIndex = 15
+        '
+        'Panel_Bus_Address
+        '
+        Me.Panel_Bus_Address.BackColor = System.Drawing.Color.Gray
+        Me.Panel_Bus_Address.Location = New System.Drawing.Point(216, 43)
+        Me.Panel_Bus_Address.Name = "Panel_Bus_Address"
+        Me.Panel_Bus_Address.Size = New System.Drawing.Size(62, 10)
+        Me.Panel_Bus_Address.TabIndex = 2
+        '
+        'Panel_Bus_Data
+        '
+        Me.Panel_Bus_Data.BackColor = System.Drawing.Color.Gray
+        Me.Panel_Bus_Data.Location = New System.Drawing.Point(216, 205)
+        Me.Panel_Bus_Data.Name = "Panel_Bus_Data"
+        Me.Panel_Bus_Data.Size = New System.Drawing.Size(62, 10)
+        Me.Panel_Bus_Data.TabIndex = 3
+        '
+        'Panel_Bus_Control
+        '
+        Me.Panel_Bus_Control.BackColor = System.Drawing.Color.Gray
+        Me.Panel_Bus_Control.Location = New System.Drawing.Point(216, 245)
+        Me.Panel_Bus_Control.Name = "Panel_Bus_Control"
+        Me.Panel_Bus_Control.Size = New System.Drawing.Size(62, 10)
+        Me.Panel_Bus_Control.TabIndex = 4
+        '
+        'BtnCycle
+        '
+        Me.BtnCycle.BackColor = System.Drawing.Color.Transparent
+        Me.BtnCycle.Location = New System.Drawing.Point(216, 82)
+        Me.BtnCycle.Name = "BtnCycle"
+        Me.BtnCycle.Size = New System.Drawing.Size(62, 50)
+        Me.BtnCycle.TabIndex = 5
+        Me.BtnCycle.Text = "Do Cycle"
+        Me.BtnCycle.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(496, 283)
+        Me.Controls.Add(Me.BtnCycle)
         Me.Controls.Add(Me.Panel_Bus_Control)
         Me.Controls.Add(Me.Panel_Bus_Data)
         Me.Controls.Add(Me.Panel_Bus_Address)
@@ -613,8 +625,8 @@ Partial Class Form1
         Me.Panel_MAR.ResumeLayout(False)
         Me.Panel_PC.ResumeLayout(False)
         Me.Panel_Ram.ResumeLayout(False)
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
+        Me.Table_Ram.ResumeLayout(False)
+        Me.Table_Ram.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -622,7 +634,7 @@ Partial Class Form1
     Friend WithEvents Panel_CPU As Panel
     Friend WithEvents Panel_PC As Panel
     Friend WithEvents Label_PC_Binary As Label
-    Friend WithEvents Lbl_PC As Label
+    Friend WithEvents Label_PC As Label
     Friend WithEvents Panel_Ram As Panel
     Friend WithEvents Panel_MAR As Panel
     Friend WithEvents Label_MAR_Binary As Label
@@ -643,7 +655,7 @@ Partial Class Form1
     Friend WithEvents Panel_Bus_Address As Panel
     Friend WithEvents Panel_Bus_Data As Panel
     Friend WithEvents Panel_Bus_Control As Panel
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents Table_Ram As TableLayoutPanel
     Friend WithEvents Label_Ram_Address As Label
     Friend WithEvents Label_Ram_Content As Label
     Friend WithEvents Label_Ram_0000 As Label
@@ -670,4 +682,10 @@ Partial Class Form1
     Friend WithEvents TxtBox_Ram_1010 As TextBox
     Friend WithEvents TxtBox_Ram_1011 As TextBox
     Friend WithEvents TxtBox_Ram_0000 As TextBox
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Friend WithEvents BtnCycle As Button
 End Class
