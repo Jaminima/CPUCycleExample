@@ -9,6 +9,14 @@
     Sub ResetPC()
     End Sub
 
+    Function CutString(Str As String, SPos As Integer, EPos As Integer)
+        Dim Out As String
+        For i = SPos - 1 To EPos - 1
+            Out = Out & GetChar(Str, i + 1)
+        Next
+        Return Out
+    End Function
+
     Class Binary
 
         Public Function BinToDec(Bin As String)
