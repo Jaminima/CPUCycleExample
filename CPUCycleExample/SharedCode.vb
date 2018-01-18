@@ -40,8 +40,9 @@
             Return Bin
         End Function
 
-        Public Function BinaryMath(A As String, B As String)
-            Return DecToBin(BinToDec(A) + BinToDec(B))
+        Public Function BinaryMath(A As String, B As String, MathOpcode As String)
+            If MathOpcode = "+" Then Return DecToBin(BinToDec(A) + BinToDec(B))
+            If MathOpcode = "-" Then Return DecToBin(BinToDec(A) - BinToDec(B))
         End Function
 
         Public Function MakeLength(Bin As String, NewLength As Integer)

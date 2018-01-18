@@ -1,7 +1,7 @@
 ﻿Imports System.ComponentModel
 
 Public Class Form1
-    Public Delay = 1000
+    Public Delay = 600
     Private Sub BtnCycle_Click(sender As Object, e As EventArgs) Handles BtnCycle.Click
         BtnCycle.BackColor = Color.Green
 

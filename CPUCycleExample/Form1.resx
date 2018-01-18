@@ -117,4 +117,1840 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;Label_ACC_Binary.Name" xml:space="preserve">
+    <value>Label_ACC_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.Parent" xml:space="preserve">
+    <value>Panel_ACC</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.Name" xml:space="preserve">
+    <value>Label_ACC</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.Parent" xml:space="preserve">
+    <value>Panel_ACC</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Panel_ACC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 69</value>
+  </data>
+  <data name="Panel_ACC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel_ACC.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel_ACC.Name" xml:space="preserve">
+    <value>Panel_ACC</value>
+  </data>
+  <data name="&gt;&gt;Panel_ACC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_ACC.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_ACC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_ALU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 136</value>
+  </data>
+  <data name="Label_ALU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 18</value>
+  </data>
+  <data name="Label_ALU.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label_ALU.Text" xml:space="preserve">
+    <value>ALU</value>
+  </data>
+  <data name="Label_ALU.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_ALU.Name" xml:space="preserve">
+    <value>Label_ALU</value>
+  </data>
+  <data name="&gt;&gt;Label_ALU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ALU.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Label_ALU.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_Decoder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label_Decoder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="Label_Decoder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label_Decoder.Text" xml:space="preserve">
+    <value>Decoder</value>
+  </data>
+  <data name="Label_Decoder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_Decoder.Name" xml:space="preserve">
+    <value>Label_Decoder</value>
+  </data>
+  <data name="&gt;&gt;Label_Decoder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Decoder.Parent" xml:space="preserve">
+    <value>Panel_Decoder</value>
+  </data>
+  <data name="&gt;&gt;Label_Decoder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListBox1.Items" xml:space="preserve">
+    <value>0000 - Reset PC</value>
+  </data>
+  <data name="ListBox1.Items1" xml:space="preserve">
+    <value>0001 - Add</value>
+  </data>
+  <data name="ListBox1.Items2" xml:space="preserve">
+    <value>0010 - Subtract</value>
+  </data>
+  <data name="ListBox1.Items3" xml:space="preserve">
+    <value>0100 - Replace</value>
+  </data>
+  <data name="ListBox1.Items4" xml:space="preserve">
+    <value>0101 - Store</value>
+  </data>
+  <data name="ListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 16</value>
+  </data>
+  <data name="ListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 108</value>
+  </data>
+  <data name="ListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Name" xml:space="preserve">
+    <value>ListBox1</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Parent" xml:space="preserve">
+    <value>Panel_Decoder</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel_Decoder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 69</value>
+  </data>
+  <data name="Panel_Decoder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 114</value>
+  </data>
+  <data name="Panel_Decoder.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Panel_Decoder.Name" xml:space="preserve">
+    <value>Panel_Decoder</value>
+  </data>
+  <data name="&gt;&gt;Panel_Decoder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_Decoder.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_Decoder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.Name" xml:space="preserve">
+    <value>Label_CIR_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.Parent" xml:space="preserve">
+    <value>Panel_CIR</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.Name" xml:space="preserve">
+    <value>Label_CIR</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.Parent" xml:space="preserve">
+    <value>Panel_CIR</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel_CIR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 201</value>
+  </data>
+  <data name="Panel_CIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="Panel_CIR.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Panel_CIR.Name" xml:space="preserve">
+    <value>Panel_CIR</value>
+  </data>
+  <data name="&gt;&gt;Panel_CIR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_CIR.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_CIR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label_CU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 227</value>
+  </data>
+  <data name="Label_CU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="Label_CU.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label_CU.Text" xml:space="preserve">
+    <value>CU</value>
+  </data>
+  <data name="Label_CU.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_CU.Name" xml:space="preserve">
+    <value>Label_CU</value>
+  </data>
+  <data name="&gt;&gt;Label_CU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_CU.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Label_CU.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.Name" xml:space="preserve">
+    <value>Label_MBR_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.Parent" xml:space="preserve">
+    <value>Panel_MDR</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.Name" xml:space="preserve">
+    <value>Label_MBR</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.Parent" xml:space="preserve">
+    <value>Panel_MDR</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel_MDR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 174</value>
+  </data>
+  <data name="Panel_MDR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="Panel_MDR.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel_MDR.Name" xml:space="preserve">
+    <value>Panel_MDR</value>
+  </data>
+  <data name="&gt;&gt;Panel_MDR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_MDR.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_MDR.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.Name" xml:space="preserve">
+    <value>Label_MAR_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.Parent" xml:space="preserve">
+    <value>Panel_MAR</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.Name" xml:space="preserve">
+    <value>Label_MAR</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.Parent" xml:space="preserve">
+    <value>Panel_MAR</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel_MAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 3</value>
+  </data>
+  <data name="Panel_MAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="Panel_MAR.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel_MAR.Name" xml:space="preserve">
+    <value>Panel_MAR</value>
+  </data>
+  <data name="&gt;&gt;Panel_MAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_MAR.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_MAR.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.Name" xml:space="preserve">
+    <value>Label_PC_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.Parent" xml:space="preserve">
+    <value>Panel_PC</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.Name" xml:space="preserve">
+    <value>Label_PC</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.Parent" xml:space="preserve">
+    <value>Panel_PC</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel_PC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Panel_PC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="Panel_PC.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel_PC.Name" xml:space="preserve">
+    <value>Panel_PC</value>
+  </data>
+  <data name="&gt;&gt;Panel_PC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_PC.Parent" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_PC.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Panel_CPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="Panel_CPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 255</value>
+  </data>
+  <data name="Panel_CPU.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel_CPU.Name" xml:space="preserve">
+    <value>Panel_CPU</value>
+  </data>
+  <data name="&gt;&gt;Panel_CPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_CPU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_CPU.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label_ACC_Binary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="Label_ACC_Binary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label_ACC_Binary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_ACC_Binary.Text" xml:space="preserve">
+    <value>00000000</value>
+  </data>
+  <data name="Label_ACC_Binary.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.Name" xml:space="preserve">
+    <value>Label_ACC_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.Parent" xml:space="preserve">
+    <value>Panel_ACC</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_ACC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label_ACC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="Label_ACC.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_ACC.Text" xml:space="preserve">
+    <value>ACC</value>
+  </data>
+  <data name="Label_ACC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.Name" xml:space="preserve">
+    <value>Label_ACC</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.Parent" xml:space="preserve">
+    <value>Panel_ACC</value>
+  </data>
+  <data name="&gt;&gt;Label_ACC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_CIR_Binary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="Label_CIR_Binary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label_CIR_Binary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_CIR_Binary.Text" xml:space="preserve">
+    <value>00000000</value>
+  </data>
+  <data name="Label_CIR_Binary.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.Name" xml:space="preserve">
+    <value>Label_CIR_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.Parent" xml:space="preserve">
+    <value>Panel_CIR</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_CIR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label_CIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="Label_CIR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_CIR.Text" xml:space="preserve">
+    <value>CIR</value>
+  </data>
+  <data name="Label_CIR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.Name" xml:space="preserve">
+    <value>Label_CIR</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.Parent" xml:space="preserve">
+    <value>Panel_CIR</value>
+  </data>
+  <data name="&gt;&gt;Label_CIR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_MBR_Binary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="Label_MBR_Binary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label_MBR_Binary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_MBR_Binary.Text" xml:space="preserve">
+    <value>00000000</value>
+  </data>
+  <data name="Label_MBR_Binary.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.Name" xml:space="preserve">
+    <value>Label_MBR_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.Parent" xml:space="preserve">
+    <value>Panel_MDR</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_MBR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label_MBR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="Label_MBR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_MBR.Text" xml:space="preserve">
+    <value>MBR</value>
+  </data>
+  <data name="Label_MBR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.Name" xml:space="preserve">
+    <value>Label_MBR</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.Parent" xml:space="preserve">
+    <value>Panel_MDR</value>
+  </data>
+  <data name="&gt;&gt;Label_MBR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_MAR_Binary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="Label_MAR_Binary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label_MAR_Binary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_MAR_Binary.Text" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="Label_MAR_Binary.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.Name" xml:space="preserve">
+    <value>Label_MAR_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.Parent" xml:space="preserve">
+    <value>Panel_MAR</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_MAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label_MAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="Label_MAR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_MAR.Text" xml:space="preserve">
+    <value>MAR</value>
+  </data>
+  <data name="Label_MAR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.Name" xml:space="preserve">
+    <value>Label_MAR</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.Parent" xml:space="preserve">
+    <value>Panel_MAR</value>
+  </data>
+  <data name="&gt;&gt;Label_MAR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_PC_Binary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="Label_PC_Binary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label_PC_Binary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_PC_Binary.Text" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="Label_PC_Binary.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.Name" xml:space="preserve">
+    <value>Label_PC_Binary</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.Parent" xml:space="preserve">
+    <value>Panel_PC</value>
+  </data>
+  <data name="&gt;&gt;Label_PC_Binary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_PC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label_PC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="Label_PC.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_PC.Text" xml:space="preserve">
+    <value>PC</value>
+  </data>
+  <data name="Label_PC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.Name" xml:space="preserve">
+    <value>Label_PC</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.Parent" xml:space="preserve">
+    <value>Panel_PC</value>
+  </data>
+  <data name="&gt;&gt;Label_PC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.Name" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.Parent" xml:space="preserve">
+    <value>Panel_Ram</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Table_Ram.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TxtBox_Ram_1011" Row="16" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_Address" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0000" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0010" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_Content" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0001" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0011" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0100" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0101" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0110" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0111" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1000" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1001" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1010" Row="15" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1011" Row="16" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0001" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0010" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0011" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0100" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0101" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0110" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0111" Row="12" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_1000" Row="13" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_1001" Row="14" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_1010" Row="15" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0000" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,41,Percent,59" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Panel_Ram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 13</value>
+  </data>
+  <data name="Panel_Ram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 255</value>
+  </data>
+  <data name="Panel_Ram.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel_Ram.Name" xml:space="preserve">
+    <value>Panel_Ram</value>
+  </data>
+  <data name="&gt;&gt;Panel_Ram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_Ram.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Ram.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Table_Ram.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1011</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.Name" xml:space="preserve">
+    <value>Label_Ram_Address</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.Name" xml:space="preserve">
+    <value>Label_Ram_0000</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.Name" xml:space="preserve">
+    <value>Label_Ram_0010</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.Name" xml:space="preserve">
+    <value>Label_Ram_Content</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.Name" xml:space="preserve">
+    <value>Label_Ram_0001</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.Name" xml:space="preserve">
+    <value>Label_Ram_0011</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.Name" xml:space="preserve">
+    <value>Label_Ram_0100</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.Name" xml:space="preserve">
+    <value>Label_Ram_0101</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.Name" xml:space="preserve">
+    <value>Label_Ram_0110</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.Name" xml:space="preserve">
+    <value>Label_Ram_0111</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.Name" xml:space="preserve">
+    <value>Label_Ram_1000</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.Name" xml:space="preserve">
+    <value>Label_Ram_1001</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.Name" xml:space="preserve">
+    <value>Label_Ram_1010</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.Name" xml:space="preserve">
+    <value>Label_Ram_1011</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0001</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0010</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0011</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0100</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0101</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0110</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0111</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1000</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1001</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1010</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0000</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Table_Ram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Table_Ram.RowCount" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Table_Ram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 255</value>
+  </data>
+  <data name="Table_Ram.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.Name" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.Parent" xml:space="preserve">
+    <value>Panel_Ram</value>
+  </data>
+  <data name="&gt;&gt;Table_Ram.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Table_Ram.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TxtBox_Ram_1011" Row="16" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_Address" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0000" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0010" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_Content" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0001" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0011" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0100" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0101" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0110" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_0111" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1000" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1001" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1010" Row="15" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Label_Ram_1011" Row="16" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0001" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0010" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0011" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0100" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0101" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0110" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0111" Row="12" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_1000" Row="13" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_1001" Row="14" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_1010" Row="15" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TxtBox_Ram_0000" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,41,Percent,59" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TxtBox_Ram_1011.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 239</value>
+  </data>
+  <data name="TxtBox_Ram_1011.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_1011.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_1011.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1011</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1011.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_Ram_Address.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Label_Ram_Address.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -1</value>
+  </data>
+  <data name="Label_Ram_Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="Label_Ram_Address.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_Ram_Address.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.Name" xml:space="preserve">
+    <value>Label_Ram_Address</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Address.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_Ram_0000.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="Label_Ram_0000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0000.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label_Ram_0000.Text" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.Name" xml:space="preserve">
+    <value>Label_Ram_0000</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0000.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label_Ram_0010.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0010.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="Label_Ram_0010.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0010.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label_Ram_0010.Text" xml:space="preserve">
+    <value>0010</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.Name" xml:space="preserve">
+    <value>Label_Ram_0010</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0010.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label_Ram_Content.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Label_Ram_Content.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, -1</value>
+  </data>
+  <data name="Label_Ram_Content.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="Label_Ram_Content.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_Ram_Content.Text" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.Name" xml:space="preserve">
+    <value>Label_Ram_Content</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_Content.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label_Ram_0001.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0001.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 36</value>
+  </data>
+  <data name="Label_Ram_0001.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0001.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label_Ram_0001.Text" xml:space="preserve">
+    <value>0001</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.Name" xml:space="preserve">
+    <value>Label_Ram_0001</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0001.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label_Ram_0011.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0011.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="Label_Ram_0011.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0011.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label_Ram_0011.Text" xml:space="preserve">
+    <value>0011</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.Name" xml:space="preserve">
+    <value>Label_Ram_0011</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0011.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label_Ram_0100.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 96</value>
+  </data>
+  <data name="Label_Ram_0100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0100.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label_Ram_0100.Text" xml:space="preserve">
+    <value>0100</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.Name" xml:space="preserve">
+    <value>Label_Ram_0100</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0100.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label_Ram_0101.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0101.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="Label_Ram_0101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0101.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label_Ram_0101.Text" xml:space="preserve">
+    <value>0101</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.Name" xml:space="preserve">
+    <value>Label_Ram_0101</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0101.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label_Ram_0110.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 136</value>
+  </data>
+  <data name="Label_Ram_0110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0110.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label_Ram_0110.Text" xml:space="preserve">
+    <value>0110</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.Name" xml:space="preserve">
+    <value>Label_Ram_0110</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0110.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label_Ram_0111.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_0111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 156</value>
+  </data>
+  <data name="Label_Ram_0111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_0111.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Label_Ram_0111.Text" xml:space="preserve">
+    <value>0111</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.Name" xml:space="preserve">
+    <value>Label_Ram_0111</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_0111.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label_Ram_1000.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_1000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="Label_Ram_1000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_1000.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Label_Ram_1000.Text" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.Name" xml:space="preserve">
+    <value>Label_Ram_1000</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1000.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label_Ram_1001.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_1001.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 196</value>
+  </data>
+  <data name="Label_Ram_1001.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_1001.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Label_Ram_1001.Text" xml:space="preserve">
+    <value>1001</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.Name" xml:space="preserve">
+    <value>Label_Ram_1001</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1001.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label_Ram_1010.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_1010.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 216</value>
+  </data>
+  <data name="Label_Ram_1010.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_1010.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label_Ram_1010.Text" xml:space="preserve">
+    <value>1010</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.Name" xml:space="preserve">
+    <value>Label_Ram_1010</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1010.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label_Ram_1011.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Ram_1011.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 236</value>
+  </data>
+  <data name="Label_Ram_1011.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="Label_Ram_1011.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Label_Ram_1011.Text" xml:space="preserve">
+    <value>1011</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.Name" xml:space="preserve">
+    <value>Label_Ram_1011</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;Label_Ram_1011.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TxtBox_Ram_0001.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 39</value>
+  </data>
+  <data name="TxtBox_Ram_0001.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0001.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0001.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0001</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0001.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TxtBox_Ram_0010.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 59</value>
+  </data>
+  <data name="TxtBox_Ram_0010.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0010.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0010.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0010</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0010.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TxtBox_Ram_0011.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 79</value>
+  </data>
+  <data name="TxtBox_Ram_0011.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0011.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0011.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0011</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0011.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="TxtBox_Ram_0100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 99</value>
+  </data>
+  <data name="TxtBox_Ram_0100.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0100.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0100</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0100.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TxtBox_Ram_0101.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 119</value>
+  </data>
+  <data name="TxtBox_Ram_0101.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0101.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0101</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0101.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="TxtBox_Ram_0110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 139</value>
+  </data>
+  <data name="TxtBox_Ram_0110.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0110.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0110</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0110.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="TxtBox_Ram_0111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 159</value>
+  </data>
+  <data name="TxtBox_Ram_0111.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0111.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0111</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0111.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="TxtBox_Ram_1000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 179</value>
+  </data>
+  <data name="TxtBox_Ram_1000.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_1000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_1000.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1000</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1000.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="TxtBox_Ram_1001.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 199</value>
+  </data>
+  <data name="TxtBox_Ram_1001.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_1001.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_1001.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1001</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1001.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="TxtBox_Ram_1010.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 219</value>
+  </data>
+  <data name="TxtBox_Ram_1010.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_1010.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_1010.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.Name" xml:space="preserve">
+    <value>TxtBox_Ram_1010</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_1010.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="TxtBox_Ram_0000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="TxtBox_Ram_0000.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBox_Ram_0000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TxtBox_Ram_0000.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.Name" xml:space="preserve">
+    <value>TxtBox_Ram_0000</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.Parent" xml:space="preserve">
+    <value>Table_Ram</value>
+  </data>
+  <data name="&gt;&gt;TxtBox_Ram_0000.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Panel_Bus_Address.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 43</value>
+  </data>
+  <data name="Panel_Bus_Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 10</value>
+  </data>
+  <data name="Panel_Bus_Address.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Address.Name" xml:space="preserve">
+    <value>Panel_Bus_Address</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Address.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Address.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Panel_Bus_Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 205</value>
+  </data>
+  <data name="Panel_Bus_Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 10</value>
+  </data>
+  <data name="Panel_Bus_Data.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Data.Name" xml:space="preserve">
+    <value>Panel_Bus_Data</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Data.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Data.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel_Bus_Control.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 245</value>
+  </data>
+  <data name="Panel_Bus_Control.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 10</value>
+  </data>
+  <data name="Panel_Bus_Control.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Control.Name" xml:space="preserve">
+    <value>Panel_Bus_Control</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Control.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Control.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Bus_Control.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 82</value>
+  </data>
+  <data name="BtnCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 50</value>
+  </data>
+  <data name="BtnCycle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnCycle.Text" xml:space="preserve">
+    <value>Do Cycle</value>
+  </data>
+  <data name="&gt;&gt;BtnCycle.Name" xml:space="preserve">
+    <value>BtnCycle</value>
+  </data>
+  <data name="&gt;&gt;BtnCycle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCycle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnCycle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnRestart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 138</value>
+  </data>
+  <data name="BtnRestart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 24</value>
+  </data>
+  <data name="BtnRestart.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnRestart.Text" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="&gt;&gt;BtnRestart.Name" xml:space="preserve">
+    <value>BtnRestart</value>
+  </data>
+  <data name="&gt;&gt;BtnRestart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRestart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnRestart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>496, 283</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>512, 321</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CPU Cycle</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
