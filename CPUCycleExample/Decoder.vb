@@ -40,7 +40,7 @@
             Form1.Label_ACC.BackColor = Color.OrangeRed
             Form1.Label_ALU.BackColor = Color.DeepSkyBlue
 #End Region
-            Form1.Label_ACC_Binary.Text = SharedCode.BinaryV.BinaryMath(RamController.GetVal(Operand), Form1.Label_ACC_Binary.Text)
+            Form1.Label_ACC_Binary.Text = SharedCode.BinaryV.BinaryMath(AddressContent, Form1.Label_ACC_Binary.Text)
             Form1.Refresh()
 
         ElseIf OpCode = "0010" Then ' Replace Value in accumulator
@@ -71,7 +71,7 @@
             Form1.Label_MBR.BackColor = Color.OrangeRed
             Form1.Label_ACC.BackColor = Color.OrangeRed
 #End Region
-            Form1.Label_ACC_Binary.Text = RamController.GetVal(Operand)
+            Form1.Label_ACC_Binary.Text = AddressContent
             Form1.Refresh()
 
         End If
