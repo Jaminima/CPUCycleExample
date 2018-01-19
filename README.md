@@ -17,5 +17,16 @@
     * Copy Accumulator content to Memory Buffer Register
     * Move MBR content into targeted Address
     
-### Download .EXE ###
+## Download .EXE ##
 <a href="https://github.com/Jaminima/CPUCycleExample/blob/master/CPUCycleExample.exe?raw=true">Download From Github</a>
+
+# Good Luck
+This Code Was Great Fun To Work On</BR>
+And I Hope You Lot Can Enjoy It</BR>
+Just As Much By Learning From It.
+
+# License
+Any Code Is Intended For Learning And Emulating</BR>
+So Please Dont Just Copy It</BR>
+Also I Have Removed Any Modules,</BR>
+These You Will Have To Create Yourself
