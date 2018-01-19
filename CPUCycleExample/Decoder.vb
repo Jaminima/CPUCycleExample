@@ -40,7 +40,7 @@
             Form1.Label_ACC.BackColor = Color.OrangeRed
             Form1.Label_ALU.BackColor = Color.DeepSkyBlue
 #End Region
-            Form1.Label_ACC_Binary.Text = SharedCode.BinaryV.BinaryMath(AddressContent, Form1.Label_ACC_Binary.Text, "+")
+            Form1.Label_ACC_Binary.Text = SharedCode.BinaryV.MakeLength(SharedCode.BinaryV.BinaryMath(AddressContent, Form1.Label_ACC_Binary.Text, "+"), 8)
             Form1.Refresh()
 
         ElseIf OpCode = "0010" Then ' Subtract num in Operand from Accumulator
@@ -74,7 +74,7 @@
             Form1.Label_ACC.BackColor = Color.OrangeRed
             Form1.Label_ALU.BackColor = Color.DeepSkyBlue
 #End Region
-            Form1.Label_ACC_Binary.Text = SharedCode.BinaryV.BinaryMath(Form1.Label_ACC_Binary.Text, AddressContent, "-")
+            Form1.Label_ACC_Binary.Text = SharedCode.BinaryV.MakeLength(SharedCode.BinaryV.BinaryMath(Form1.Label_ACC_Binary.Text, AddressContent, "-"), 8)
             Form1.Refresh()
 
         ElseIf OpCode = "0100" Then ' Replace Value in accumulator
@@ -130,15 +130,14 @@
             Form1.Panel_Bus_Data.BackColor = Color.Green
             Form1.Panel_Bus_Control.BackColor = Color.Green
             Form1.Label_MBR.BackColor = Color.Green
-            RamController.WriteVal(Operand, Form1.Label_MBR_Binary.Text)
             SharedCode.Wait(Form1.Delay)
             Form1.Label_MAR.BackColor = Color.OrangeRed
             Form1.Panel_Bus_Address.BackColor = Color.Gray
             Form1.Panel_Bus_Data.BackColor = Color.Gray
             Form1.Panel_Bus_Control.BackColor = Color.Gray
             Form1.Label_MBR.BackColor = Color.OrangeRed
-
 #End Region
+            RamController.WriteVal(Operand, Form1.Label_MBR_Binary.Text)
 
 
         ElseIf OpCode = "0000" Then ' Reset Program Counter

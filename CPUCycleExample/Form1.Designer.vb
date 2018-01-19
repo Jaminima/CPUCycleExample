@@ -30,6 +30,7 @@ Partial Class Form1
         Me.Label_ALU = New System.Windows.Forms.Label()
         Me.Panel_Decoder = New System.Windows.Forms.Panel()
         Me.Label_Decoder = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Panel_CIR = New System.Windows.Forms.Panel()
         Me.Label_CIR_Binary = New System.Windows.Forms.Label()
         Me.Label_CIR = New System.Windows.Forms.Label()
@@ -76,7 +77,6 @@ Partial Class Form1
         Me.Panel_Bus_Control = New System.Windows.Forms.Panel()
         Me.BtnCycle = New System.Windows.Forms.Button()
         Me.BtnRestart = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Panel_CPU.SuspendLayout()
         Me.Panel_ACC.SuspendLayout()
         Me.Panel_Decoder.SuspendLayout()
@@ -140,6 +140,14 @@ Partial Class Form1
         Me.Label_Decoder.BackColor = System.Drawing.Color.OrangeRed
         resources.ApplyResources(Me.Label_Decoder, "Label_Decoder")
         Me.Label_Decoder.Name = "Label_Decoder"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.BackColor = System.Drawing.Color.Aqua
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {resources.GetString("ListBox1.Items"), resources.GetString("ListBox1.Items1"), resources.GetString("ListBox1.Items2"), resources.GetString("ListBox1.Items3"), resources.GetString("ListBox1.Items4")})
+        resources.ApplyResources(Me.ListBox1, "ListBox1")
+        Me.ListBox1.Name = "ListBox1"
         '
         'Panel_CIR
         '
@@ -423,14 +431,6 @@ Partial Class Form1
         resources.ApplyResources(Me.BtnRestart, "BtnRestart")
         Me.BtnRestart.Name = "BtnRestart"
         Me.BtnRestart.UseVisualStyleBackColor = False
-        '
-        'ListBox1
-        '
-        Me.ListBox1.BackColor = System.Drawing.Color.Aqua
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {resources.GetString("ListBox1.Items"), resources.GetString("ListBox1.Items1"), resources.GetString("ListBox1.Items2"), resources.GetString("ListBox1.Items3"), resources.GetString("ListBox1.Items4")})
-        resources.ApplyResources(Me.ListBox1, "ListBox1")
-        Me.ListBox1.Name = "ListBox1"
         '
         'Form1
         '
